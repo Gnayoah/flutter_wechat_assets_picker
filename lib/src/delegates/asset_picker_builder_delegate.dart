@@ -1830,7 +1830,7 @@ class DefaultAssetPickerBuilderDelegate
           color: theme.colorScheme.secondary,
           disabledColor: theme.splashColor,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(3),
+            borderRadius: BorderRadius.circular(10),
           ),
           onPressed: shouldAllowConfirm
               ? () {
