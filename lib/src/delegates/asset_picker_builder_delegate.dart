@@ -1826,6 +1826,7 @@ class DefaultAssetPickerBuilderDelegate
         return MaterialButton(
           minWidth: shouldAllowConfirm ? 48 : 20,
           height: appBarItemHeight,
+          elevation: 0,
           padding: const EdgeInsets.symmetric(horizontal: 12),
           color: theme.colorScheme.secondary,
           disabledColor: theme.splashColor,
@@ -1845,7 +1846,7 @@ class DefaultAssetPickerBuilderDelegate
                 : textDelegate.confirm,
             style: TextStyle(
               color: shouldAllowConfirm
-                  ? theme.textTheme.bodyLarge?.color
+                  ? Colors.white
                   : theme.textTheme.bodySmall?.color,
               fontSize: 17,
               fontWeight: FontWeight.normal,
